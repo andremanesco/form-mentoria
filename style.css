@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+}
+
+.page {
+    margin:  0 auto;
+    width: 750px;
+}
+
+header {
+    width: 417px;
+    font-size: 20px;
+
+    margin-top: 140px;
+}
+
+header h1, p {
+    margin-bottom: 18px;
+    color: #FFFFFF;
+}
+
+form {
+    background:#FFFFFF ;
+    margin-top: 60px;
+    border-radius: 20px 20px 0 0;
+    padding: 64px;
+}
+
+legend {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 34px;
+    color: #535971;
+    padding: 8px;
+    border-bottom: 1px solid #E6E6F0;
+    margin-bottom: 32px;
+}
+
+#my-form::before {
+    content: '';
+    background: #535971;
+    width: 100%;
+    height: 436px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+fieldset {
+    border: none;
+}
+
+.fieldset-wrapper {
+    margin-bottom: 32px;
+}
+
+label {
+    font-size: 14px;
+    color: #4E4958;
+    margin-bottom: 8px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.input-wrapper input {
+    height: 56px;
+    border: 1px solid #e6e6f0;
+    border-radius: 8px;
+    background: #FAFAFC;
+
+    font-size: 16px;
+    color: #535971;
+
+    line-height: 26px;
+    padding: 0 24px;
+}
+
+.input-wrapper input:focus {
+    outline: 1px solid #4E4958;
+}
+
+span {
+    font-size: 12px;
+    color: #C1BCCC;
+    margin-left: 8px;
+}
+
+h3 {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #535971;
+    margin-bottom: 11px;
+    margin-top: 16px ;
+}
+
+.col-2 {
+    display: flex;
+    gap: 22px;
+}
+
+.col-2 > div:nth-child(2) {
+    width: 80%;
+}
+
+.col-3 {
+    display: flex;
+}
+
+.col-3 > div:nth-child(1) {
+    margin-right: 32px;
+    width: 100%;
+}
+
+.col-3 > div:nth-child(2) {
+    margin-right: 10px;
+}
+
+footer {
+    background: #535971;
+    height: 160px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 0 0 8px 8px;
+
+    padding: 52px 71px; 
+}
+
+footer .button {
+    height: 56px;
+    padding: 15px;
+    background: #FF5374;
+
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border: none;
+}
+
+footer .button:hover {
+    background: #c72a49;
+}
